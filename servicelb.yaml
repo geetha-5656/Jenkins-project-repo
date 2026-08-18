@@ -8,7 +8,7 @@ metadata:
 spec:
   selector:
     app: java-app
-  type: NodePort  # Changed from LoadBalancer to NodePort
+  type: LoadBalancer  # Changed from LoadBalancer to NodePort
   ports:
     - protocol: TCP
       port: 80

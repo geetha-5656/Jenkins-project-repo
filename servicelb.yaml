@@ -4,7 +4,6 @@ metadata:
   name: java-app-service
   annotations:
     service.beta.kubernetes.io/aws-load-balancer-scheme: internet-facing
-    service.beta.kubernetes.io/aws-load-balancer-subnets: subnet-0f48cf2a79bd961f8,subnet-0fdd1dd0fd6d650cc,subnet-0f6d9619c71ab124e
 spec:
   selector:
     app: java-app
